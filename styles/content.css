@@ -26,8 +26,21 @@
     cursor: pointer;
     background-color: transparent;
     border: solid 1px #828282;
-    color: white;
+    color: #f9f9f9;
     padding: 10px 20px;
     margin-left: 8px;
     font-weight: bold;
+}
+
+/* config about me */
+
+#about-me-title, #about-me-text {
+    text-align: center;
+}
+
+#about-me-text {
+    color: #828282;
+    margin: auto;
+    padding: 30px 0;
+    width: 500px;
 }

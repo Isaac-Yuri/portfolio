@@ -5,7 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
-    color: rgba(249, 249, 249, 1);
+    color: #f9f9f9;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
