@@ -1,0 +1,31 @@
+.main  {
+    margin: auto;
+}
+
+#presentation {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+#box-text-presentation p {
+    color: #828282;
+    margin: 20px 0;
+}
+
+#btn-donwload {
+    background-color: #00df5e;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#btn-contato {
+    background-color: transparent;
+    border: solid 1px #828282;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 8px;
+    font-weight: bold;
+}

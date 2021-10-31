@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    color: rgba(249, 249, 249, 1);
+}
+
+body {
+    background-color: #171717;
+}
+
+.size {
+    max-width: 960px;
+}
