@@ -75,3 +75,46 @@
 .box-icon p {
     color: #828282;
 }
+
+/* section projects config */
+
+#projects {
+    margin-top: 70px; 
+}
+
+#projects h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.row-projects {
+    display: flex;
+    margin-top: 16px;
+} 
+
+.box-project {
+    background-color: #212121;
+    width: 33%;
+    margin: 0 8px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.box-project h3{
+    margin-bottom: 5px;
+}
+
+.box-project p {
+    font-size: 0.95em;
+    color: #828282;
+}
+
+.box-image-project {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box-image-project img {
+    width: 100%;
+    border-radius: 3px;
+}
