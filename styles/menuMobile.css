@@ -1,0 +1,28 @@
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 680px) {
+    #btn-mobile {
+        display: block;
+    }
+
+    #menu {
+        /* display: none; */
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        right: 0px;
+        display: block;
+        background-color: #171717;
+        height: 100vh;
+    }
+
+    #menu li {
+        margin: 10px 0;
+    }
+
+    #nav.active #menu {
+        display: flex;
+    } 
+}
