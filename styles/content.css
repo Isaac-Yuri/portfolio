@@ -118,3 +118,29 @@
     width: 100%;
     border-radius: 3px;
 }
+
+/* section services config */
+
+#services {
+    margin-top: 80px;
+}
+
+.container-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item {
+    width: 33%;
+    margin: 30px 8px;
+    padding: 20px;
+    background-color: #212121;
+    border-bottom: 3px solid #00df5e;
+}
+
+.service-item p{
+    color: #828282;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
