@@ -137,10 +137,60 @@
     padding: 20px;
     background-color: #212121;
     border-bottom: 3px solid #00df5e;
+    border-radius: 3px;
 }
 
 .service-item p{
     color: #828282;
     font-size: 1.5em;
     margin-top: 10px;
+}
+
+/* section my skills config */
+
+#my-skills {
+    margin: 80px 0 80px 0;
+}
+
+#my-skills h1 {
+    margin-bottom: 30px;
+}
+
+.box-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-skill {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #212121;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #00df5e;
+}
+
+.image-skill p {
+    color: #828282;
+}
+
+.image-skill img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/* footer config */
+
+footer {
+    text-align: center;
+    background-color: #212121;
+    padding: 10px 0;
+}
+
+#green {
+    color: #00df5e;
+    font-weight: bold;
 }
