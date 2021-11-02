@@ -1,10 +1,17 @@
-#header, #menu {
+#header {
     display: flex;
 }
 
+#nav {
+    display: flex;
+    justify-content: right;
+}
+
 #header {
-    justify-content: space-between;
+    width: 100%;
     max-width: 960px;
+    background-color: #171717;
+    justify-content: space-between;
     margin: auto;
     padding-top: 25px;
 }
@@ -27,4 +34,5 @@
 #logo {
     font-size: 1.2em;
     font-weight: 700;
+    z-index: 10000;
 }
