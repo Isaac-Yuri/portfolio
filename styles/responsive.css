@@ -1,0 +1,93 @@
+@media screen and (max-width: 700px) {
+    /* section presentation responsive */
+    #presentation {
+        flex-direction: column;
+    }
+
+    #box-image {
+        margin-top: 50px;
+    }
+
+    #box-image img{
+        margin: auto;
+        width: 80%;
+    }
+
+    /* section about-me responsive */
+
+    #box-contacts {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-row-contact {
+        width: 100%;
+    }
+
+    .second-row-contact {
+        width: 60%;
+    }
+
+    .box-icon p{
+        font-size: 13px;
+    }
+
+    .box-icon .box-image {
+        height: 41px;
+    }
+
+    .box-icon .box-image img{
+        width: 25px;
+    }
+
+    /* section projects responsive */
+
+    #projects .row-projects {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    #projects .row-projects .box-project {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    /* section services responsive */
+
+    #services .container-services {
+        flex-direction: column;
+    }
+
+    #services .container-services .service-item {
+        width: 90%;
+        margin: 10px;
+    }
+
+    /* section my-skills responsive */
+
+    #my-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .ultimate {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+}

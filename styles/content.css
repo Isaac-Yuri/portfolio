@@ -59,9 +59,10 @@
 
 #box-contacts {
     margin: auto;
-    max-width: 750px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 5px;
 }
 
 .box-icon {
@@ -82,6 +83,19 @@
 
 .box-icon p {
     color: #828282;
+    white-space: nowrap;
+}
+
+.first-row-contact {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-row-contact {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* section projects config */
