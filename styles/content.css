@@ -57,6 +57,12 @@
     width: 500px;
 }
 
+.link-in-text {
+    color: #00df5e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #box-contacts {
     margin: auto;
     width: 100%;
