@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
+:target {
+    scroll-margin-top: .8em;
+}
+
 body {
     background-color: #171717;
     overflow-x: hidden;
