@@ -1,0 +1,22 @@
+#boxReturnMenu img {
+    width: 80%;
+}
+
+#boxReturnMenu {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #00df5e;
+    border-radius: 50%;
+    top: 80vh;
+    left: 87%;
+}
+
+#boxReturnMenu {
+    transition: .3s;
+    transform: rotate(-90deg);
+}

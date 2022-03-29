@@ -117,14 +117,15 @@
     margin-bottom: 30px;
 }
 
-.row-projects {
-    display: flex;
+.box-projects {
     margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 } 
 
 .box-project {
     background-color: #212121;
-    width: 33%;
     margin: 0 8px;
     padding: 20px;
     border-radius: 3px;
