@@ -100,26 +100,74 @@
 }
 
 @media screen and (max-width: 540px) {
-    /* box projects config */
-    .box-projects{
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
+  /* box projects config */
+  .box-projects {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 
-    .box-project {
-        width: 80%;
-    }
-    /* box my-skills responsive */
-    
+  .box-project {
+    width: 90%;
+  }
+  /* box my-skills responsive */
 
-    /* box-services responsive */
-    #services .container-services {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+  /* box-services responsive */
+  #services .container-services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    #services .container-services .service-item {
-        width: 80%;
-    }
+  #services .container-services .service-item {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #btn-contato {
+    width: 50vw;
+    margin: 5px 0 0 0;
+    text-align: center;
+  }
+  #btn-donwload {
+    width: 50vw;
+  }
+  #box-text-presentation{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ---------------------- */
+
+  .box-icon p {
+    font-size: 13px;
+  }
+
+  .box-icon .box-image {
+    height: 45px;
+  }
+
+  .box-icon .box-image img {
+    width: 29px;
+  }
+
+  /* ---------------------- */
+
+  .box-skills {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .box-icon p {
+    font-size: 12px;
+  }
+
+  .box-icon .box-image {
+    height: 40px;
+  }
+
+  .box-icon .box-image img {
+    width: 24px;
+  }
 }
